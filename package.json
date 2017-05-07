@@ -1,14 +1,37 @@
 {
-  "name": "chat-example",
+  "name": "pdf2project",
   "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
-  "main": "server.js",
-  "repository": "",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "description": "Converting searchable text PDF to project files and folders",
+  "main": "pdf2project.js",
   "dependencies": {
-    "async": "~0.2.8",
-    "express": "~3.2.4",
+    "async": "^0.2.10",
+    "express": "^3.2.6",
+    "eyes": "^0.1.8",
+    "graceful-fs": "^4.1.11",
+    "mocha": "^3.2.0",
+    "pdf": "^0.1.0",
+    "pdf-extract": "^1.0.10",
     "pdf2json": "^1.1.7",
-    "socket.io": "~0.9.14"
-  }
+    "socket.io": "^0.9.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjbavier/pdf2project.git"
+  },
+  "keywords": [
+    "pdf",
+    "to",
+    "project"
+  ],
+  "author": "sjbavier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjbavier/pdf2project/issues"
+  },
+  "homepage": "https://github.com/sjbavier/pdf2project#readme"
 }
